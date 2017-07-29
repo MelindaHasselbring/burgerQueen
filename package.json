@@ -1,0 +1,27 @@
+{
+  "name": "burgerqueen",
+  "version": "1.0.0",
+  "description": "HW14",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MelindaHasselbring/burgerQueen.git"
+  },
+  "author": "Melinda Hasselbring",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MelindaHasselbring/burgerQueen/issues"
+  },
+  "homepage": "https://github.com/MelindaHasselbring/burgerQueen#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.9",
+    "mysql": "^2.14.0"
+  }
+}
