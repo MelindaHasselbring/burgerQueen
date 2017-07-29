@@ -13,6 +13,7 @@ This app uses JawsDB Remote Database -JawsDB MySQL
 * Node.js  
 * Express.js 
 * NPM
+* API
 * MySQL
 * Handlebars
 * Object Relational Mapping (ORM)
