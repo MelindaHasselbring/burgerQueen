@@ -4,7 +4,7 @@
             {{#each uneatenBurgers}}
                 <li class="list-group-item">
                     {{ id }}. {{ burger_name }}
-                    <button type="submit" form="hidden-form{{id}}" class="btn btn-primary btn-sm pull-right devour">Devour</button>
+                    <button type="submit" form="hidden-form{{id}}" class="btn btn-primary btn-sm pull-right devour">Devour it!</button>
                 </li>
                 <form action="/{{id}}?_method=PUT" method="POST" id="hidden-form{{id}}" class="hidden-xs-up"></form>
             {{/each}}
